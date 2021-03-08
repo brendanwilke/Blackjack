@@ -92,7 +92,7 @@ def hit_or_stand(deck, hand):
 	global playing
 
 	while True:
-		x = input('Hit or Stand? Enter h or s')
+		x = input('Hit or Stand? Enter h or s ')
 		if x[0].lower() == 'h': # Using x[0] grabs first character of string, adjusts for communication errors
 			hit(deck, hand)
 		elif x[0].lower() == 's':
